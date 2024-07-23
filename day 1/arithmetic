@@ -1,0 +1,34 @@
+#1
+# a=int(input())
+b=int(input())
+print(f"{a+b} {a-b} {a*b} {a**b} {a/b} {a%b}")
+# logicsl operators:
+#'''
+#and , or
+age=25
+if(age>=18 and age<24):
+    print("only two wheeler")
+elif(age>=24 and age<45):
+    print("Two wheeler and four wheeler")
+else:
+    print("All")
+#2
+m=700
+a=int(input())
+b=int(input())
+c=int(input())
+sum=a*15+b*4+c*5
+print(sum)
+if(sum>m):
+    print("has been cheated")
+else:
+    print("not cheated")
+a=int(input())
+if(a>0 and a%2==0):
+    print("positive and even")
+elif(a>0 and a%2!=0):
+    print("positive and odd")
+elif(a<0 and a%2!=0):
+    print("negative and odd")
+else:
+    print("negative and even")
